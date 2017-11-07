@@ -1,2 +1,45 @@
-something
-something else
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  background: #008800;
+}
+head {
+	background: #ffffff;
+}
+h1 {
+	color: #555555;
+	background: #ffffff;
+	margin: 0 0 20px 0;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	border-bottom: 1px solid #000000;
+}
+.value {
+	color: #ffff00;
+	display: inline;
+}
+.metric-name {
+	display: inline;
+	line-height: 200px;
+	margin-left: 10px;
+}
+.logo {
+	margin: 0 0 0 0;
+	display: inline;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: #ffffff
+}
+.graph {
+	height: auto;
+	width: auto;
+	max-height: 200px;
+	max-width: 200px;
+	float: right;
+}
