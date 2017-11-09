@@ -4,7 +4,7 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
   margin: 0;
   font: inherit;
   font-size: 100%;
-  background: #008800;
+  background: rgba(3,99,52,1);
 }
 head {
 	background: #ffffff;
@@ -19,13 +19,16 @@ h1 {
 	display: block;
 	border-bottom: 1px solid #000000;
 }
+.metric {
+	line-height: 200px;
+}
 .value {
-	color: #ffff00;
+	color: #ff0000;
 	display: inline;
 }
 .metric-name {
+	color: #ffffff;
 	display: inline;
-	line-height: 200px;
 	margin-left: 10px;
 }
 .logo {
@@ -42,4 +45,9 @@ h1 {
 	max-height: 200px;
 	max-width: 200px;
 	float: right;
+}
+.sign-out {
+	text-align: left;
+	background: #ffffff;
+	display: inline;
 }
